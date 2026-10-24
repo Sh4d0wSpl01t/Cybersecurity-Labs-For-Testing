@@ -17,7 +17,8 @@ Below is a list of the standalone vulnerable Virtual Machines I have tested. Cli
 | **[Metasploitable 3](link-to-your-writeup)** | Windows/Linux | Intermediate | ✅ Completed | Jenkins, Tomcat, custom exploits. |
 | **[Windows 7](link-to-your-writeup)** | Windows | Beginner | ✅ Completed | EternalBlue (MS17-010), weak SMB configs. |
 | **[Windows 11](link-to-your-writeup)** | Windows | Advanced | ✅ Completed | Modern Windows defenses, privilege escalation. |
-| **[VulnHub: Mr. Robot](https://tryhackme.com/room/mrrobot)** | Linux | Intermediate | ✅ Completed | WordPress, privilege escalation, CTF style. |
+| **[DVWA](link-to-your-dvwa-writeup)** | Linux / PHP | Beginner | ✅ Completed | SQL Injection (SQLi), Cross-Site Scripting (XSS), Command Injection, File Inclusion (LFI/RFI). |
+| **[OWASP Juice Shop](link-to-your-juice-shop-writeup)** | Node.js / Docker | Intermediate | ✅ Completed | Broken Access Control, XSS, SQLi, JWT flaws, Business Logic errors (OWASP Top 10). |
 
 *(Note: Replace `link-to-your-writeup` with the actual URLs to your notes, or simply remove the link formatting if you don't have writeups yet).*
 
