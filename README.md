@@ -12,30 +12,40 @@ Below is a list of the standalone vulnerable Virtual Machines I have tested. Cli
 
 | Lab Name | OS | Difficulty | Status | Notes / Key Vulnerabilities |
 | :--- | :--- | :--- | :--- | :--- |
-| **[Metasploitable 1](link-to-your-writeup)** | Linux | Beginner | ✅ Completed | Basic network services, default credentials. |
-| **[Metasploitable 2](link-to-your-writeup)** | Linux | Beginner | ✅ Completed | Vsftpd backdoor, Samba, weak web apps. |
-| **[Metasploitable 3](link-to-your-writeup)** | Windows/Linux | Intermediate | ✅ Completed | Jenkins, Tomcat, custom exploits. |
-| **[Windows 7](link-to-your-writeup)** | Windows | Beginner | ✅ Completed | EternalBlue (MS17-010), weak SMB configs. |
-| **[Windows 11](link-to-your-writeup)** | Windows | Advanced | ✅ Completed | Modern Windows defenses, privilege escalation. |
-| **[DVWA](link-to-your-dvwa-writeup)** | Linux / PHP | Beginner | ✅ Completed | SQL Injection (SQLi), Cross-Site Scripting (XSS), Command Injection, File Inclusion (LFI/RFI). |
-| **[OWASP Juice Shop](link-to-your-juice-shop-writeup)** | Node.js / Docker | Intermediate | ✅ Completed | Broken Access Control, XSS, SQLi, JWT flaws, Business Logic errors (OWASP Top 10). |
+| **[Metasploitable 1]** | Linux | Beginner | ✅ Completed | Basic network services, default credentials. |
+| **[Metasploitable 2]** | Linux | Beginner | ✅ Completed | Vsftpd backdoor, Samba, weak web apps. |
+| **[Metasploitable 3]** | Windows/Linux | Intermediate | ✅ Completed | Jenkins, Tomcat, custom exploits. |
+| **[Windows 7]** | Windows | Beginner | ✅ Completed | EternalBlue (MS17-010), weak SMB configs. |
+| **[Windows 11]** | Windows | Advanced | ✅ Completed | Modern Windows defenses, privilege escalation. |
+| **[DVWA]** | Linux / PHP | Beginner | ✅ Completed | SQL Injection (SQLi), Cross-Site Scripting (XSS), Command Injection, File Inclusion (LFI/RFI). |
+| **[OWASP Juice Shop]** | Node.js / Docker | Intermediate | ✅ Completed | Broken Access Control, XSS, SQLi, JWT flaws, Business Logic errors (OWASP Top 10). |
 
-*(Note: Replace `link-to-your-writeup` with the actual URLs to your notes, or simply remove the link formatting if you don't have writeups yet).*
-
----
-
-## 🌐 Vulnerable Web Applications
-*Coming soon / In progress...*
 
 ---
 
-## 🚩 CTF Achievements
+## 🧰 Testing Arsenal & Methodology
 
-Here are some of the badges I have earned through these labs:
+All virtual machines and web applications in this repository are tested using a structured, professional methodology.
 
-<a href="https://tryhackme.com/room/mrrobot">
-  <img src="https://assets.tryhackme.com/img/badges/mrrobot.png" alt="Mr. Robot Badge" width="100" />
-</a>
+**1. Scanning & Enumeration**
+`Nmap`, `Rustscan`, `Gobuster`, `Nikto`
+
+**2. Exploitation & Web Testing**
+`Metasploit`, `Burp Suite`, `SQLmap`, `Searchsploit`
+
+**3. Privilege Escalation**
+`LinPEAS`, `WinPEAS`, manual SUID/Kernel enumeration, `GTFOBins`
 
 ---
-*Disclaimer: All testing was performed in isolated, personal lab environments for educational purposes only.*
+
+## 📂 Repository Structure
+
+As I continue to test more machines, this repository will be organized as follows:
+
+- 📁 **/Windows** - Writeups for Windows 7, Windows 11, etc.
+- 📁 **/Linux** - Writeups for Metasploitable 1, 2, 3, etc.
+- 📁 **/Web-Apps** - Writeups for DVWA, Juice Shop, etc.
+- 📁 **/Tools** - Custom scripts or notes for specific tools used in the labs.
+
+---
+*Disclaimer: All testing, exploitation, and analysis were performed in isolated, personal lab environments that I own or have explicit permission to test. This repository is strictly for educational purposes.*
