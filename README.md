@@ -8,15 +8,15 @@ Whether you are a beginner looking for practice targets or a fellow CTF player, 
 
 ## 🖥️ Virtual Machines (VMs)
 
-Below is a list of the standalone vulnerable Virtual Machines I have tested. Click on the name of the VM to view my writeup or notes for that specific lab.
+Below is a list of the standalone vulnerable Virtual Machines I have tested. Click on the name of the VM to redirected to the download page.
 
 | Lab Name | OS | Difficulty | Status | Notes / Key Vulnerabilities |
 | :--- | :--- | :--- | :--- | :--- |
-| **[Metasploitable 1]** | Linux | Beginner | ✅ Completed | Basic network services, default credentials. |
-| **[Metasploitable 2]** | Linux | Beginner | ✅ Completed | Vsftpd backdoor, Samba, weak web apps. |
-| **[Metasploitable 3]** | Windows/Linux | Intermediate | ✅ Completed | Jenkins, Tomcat, custom exploits. |
+| **[Metasploitable 1](https://www.vulnhub.com/entry/metasploitable-1,28/)** | Linux | Beginner | ✅ Completed | Basic network services, default credentials. |
+| **[Metasploitable 2](https://www.vulnhub.com/entry/metasploitable-2,29/)** | Linux | Beginner | ✅ Completed | Vsftpd backdoor, Samba, weak web apps. |
+| **[Metasploitable 3](https://github.com/rapid7/metasploitable3)** | Windows/Linux | Intermediate | ✅ Completed | Jenkins, Tomcat, custom exploits. |
 | **[Windows 7]** | Windows | Beginner | ✅ Completed | EternalBlue (MS17-010), weak SMB configs. |
-| **[Windows 11]** | Windows | Advanced | ✅ Completed | Modern Windows defenses, privilege escalation. |
+| **[Windows 11](https://www.microsoft.com/en-us/software-download/windows11)** | Windows | Advanced | ✅ Completed | Modern Windows defenses, privilege escalation. |
 | **[DVWA]** | Linux / PHP | Beginner | ✅ Completed | SQL Injection (SQLi), Cross-Site Scripting (XSS), Command Injection, File Inclusion (LFI/RFI). |
 | **[OWASP Juice Shop]** | Node.js / Docker | Intermediate | ✅ Completed | Broken Access Control, XSS, SQLi, JWT flaws, Business Logic errors (OWASP Top 10). |
 
