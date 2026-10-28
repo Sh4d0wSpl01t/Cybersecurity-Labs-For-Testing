@@ -17,8 +17,8 @@ Below is a list of the standalone vulnerable Virtual Machines I have tested. Cli
 | **[Metasploitable 3](https://github.com/rapid7/metasploitable3)** | Windows/Linux | Intermediate | ✅ Completed | Jenkins, Tomcat, custom exploits. |
 | **[Windows 7](https://gist.github.com/ProdeusUnity/9999870f3dc946774bd2f8d1ef59eb01)** | Windows | Beginner | ✅ Completed | EternalBlue (MS17-010), weak SMB configs. |
 | **[Windows 11](https://www.microsoft.com/en-us/software-download/windows11)** | Windows | Advanced | ✅ Completed | Modern Windows defenses, privilege escalation. |
-| **[DVWA]** | Linux / PHP | Beginner | ✅ Completed | SQL Injection (SQLi), Cross-Site Scripting (XSS), Command Injection, File Inclusion (LFI/RFI). |
-| **[OWASP Juice Shop]** | Node.js / Docker | Intermediate | ✅ Completed | Broken Access Control, XSS, SQLi, JWT flaws, Business Logic errors (OWASP Top 10). |
+| **[DVWA](https://github.com/digininja/DVWA)** | Linux / PHP | Beginner | ✅ Completed | SQL Injection (SQLi), Cross-Site Scripting (XSS), Command Injection, File Inclusion (LFI/RFI). |
+| **[OWASP Juice Shop](https://github.com/juice-shop/juice-shop)** | Node.js / Docker | Intermediate | ✅ Completed | Broken Access Control, XSS, SQLi, JWT flaws, Business Logic errors (OWASP Top 10). |
 
 
 ---
