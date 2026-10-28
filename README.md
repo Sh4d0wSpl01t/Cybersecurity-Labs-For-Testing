@@ -42,12 +42,12 @@ All virtual machines and web applications in this repository are tested using a 
 
 This repository only contains safe download links for each testing machine. 
 Writeups locations is at:
-1. [Metasploitable-1](https://sh4d0wspl01t.github.io/0xWriteups/index.html)
-2. [Metasploitable-2](https://sh4d0wspl01t.github.io/0xWriteups/index.html)
-3. [Metasploitable-3](https://sh4d0wspl01t.github.io/0xWriteups/index.html)
-4. [Windows 7](https://sh4d0wspl01t.github.io/0xWriteups/index.html)
-5. [DVWA](https://sh4d0wspl01t.github.io/0xWriteups/index.html)
-6. [OWASP Juice Shop](https://sh4d0wspl01t.github.io/0xWriteups/index.html)
+1. [Metasploitable-1](#)
+2. [Metasploitable-2](#)
+3. [Metasploitable-3](#)
+4. [Windows 7](#)
+5. [DVWA](#)
+6. [OWASP Juice Shop](#)
 
 ---
 *Disclaimer: All testing, exploitation, and analysis were performed in isolated, personal lab environments that I own or have explicit permission to test. This repository is strictly for educational purposes.*
