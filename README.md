@@ -12,7 +12,7 @@ Below is a list of the standalone vulnerable Virtual Machines I have tested. Cli
 
 | Lab Name | OS | Difficulty | Status | Notes / Key Vulnerabilities |
 | :--- | :--- | :--- | :--- | :--- |
-| **[ST-Command-Injection](https://www.vulnhub.com/entry/command-injection-iso-1,81/)** | Linux | ✅ Completed | Web Exploitation - Command Injection Vuln. | 
+| **[ST-Command-Injection](https://www.vulnhub.com/entry/command-injection-iso-1,81/)** | Linux | Medium | ✅ Completed | Web Exploitation - Command Injection Vuln. | 
 | **[Metasploitable 1](https://www.vulnhub.com/entry/metasploitable-1,28/)** | Linux | Beginner | ❌ Not yet | Basic network services, default credentials. |
 | **[Metasploitable 2](https://www.vulnhub.com/entry/metasploitable-2,29/)** | Linux | Beginner | ❌ Not yet | Vsftpd backdoor, Samba, weak web apps. |
 | **[Metasploitable 3](https://github.com/rapid7/metasploitable3)** | Windows/Linux | Intermediate | ❌ Not yet | Jenkins, Tomcat, custom exploits. |
