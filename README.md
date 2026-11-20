@@ -13,8 +13,8 @@ Below is a list of the standalone vulnerable Virtual Machines I have tested. Cli
 | Lab Name | OS | Difficulty | Status | Notes / Key Vulnerabilities |
 | :--- | :--- | :--- | :--- | :--- |
 | **[ST-Command-Injection](https://www.vulnhub.com/entry/command-injection-iso-1,81/)** | Linux | Medium | ✅ Completed | Web Exploitation - Command Injection Vuln. | 
-| **[Metasploitable 1](https://www.vulnhub.com/entry/metasploitable-1,28/)** | Linux | Beginner | ❌ Not yet | Basic network services, default credentials. |
-| **[Metasploitable 2](https://www.vulnhub.com/entry/metasploitable-2,29/)** | Linux | Beginner | ❌ Not yet | Vsftpd backdoor, Samba, weak web apps. |
+| **[Metasploitable 1](https://www.vulnhub.com/entry/metasploitable-1,28/)** | Linux | Beginner | ✅ Completed | Basic network services, default credentials. |
+| **[Metasploitable 2](https://www.vulnhub.com/entry/metasploitable-2,29/)** | Linux | Beginner | ✅ Completed | Vsftpd backdoor, Samba, weak web apps. |
 | **[Metasploitable 3](https://github.com/rapid7/metasploitable3)** | Windows/Linux | Intermediate | ❌ Not yet | Jenkins, Tomcat, custom exploits. |
 | **[Windows 7](https://gist.github.com/ProdeusUnity/9999870f3dc946774bd2f8d1ef59eb01)** | Windows | Beginner | ❌ Not yet | EternalBlue (MS17-010), weak SMB configs. |
 | **[Windows 11](https://www.microsoft.com/en-us/software-download/windows11)** | Windows | Advanced | ❌ Not yet | Modern Windows defenses, privilege escalation. |
